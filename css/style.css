@@ -313,7 +313,7 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 @media (max-width:600px){
 .types_of_homeopathy_box{margin-right:0}
 .types_of_hair .owl-item .item{padding: 0 10px 0 10px}
-.aliments_we_heading{margin-top:0;text-align:center;margin-bottom:10px}
+.aliments_we_heading{margin-top:12px;text-align:center;margin-bottom:10px}
 }
 
 /*==========================================*/
