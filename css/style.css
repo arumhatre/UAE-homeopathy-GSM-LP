@@ -323,6 +323,11 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .benefits_of_homeopathy_box{padding:20px 10px;border-radius:8px;align-items:center;background-color:#034173}
 .benefits_of_homeopathy_box img{margin-top:10px}
 .benefits_of_homeopathy_box p{height:50px;margin-top:15px;margin-bottom:0;font-size:18px;font-weight:500;color:#fff;line-height:normal}
+@media (max-width:768px){
+.benefits_of_homeopathy_box{padding:20px 5px;border-radius:8px;align-items:center;background-color:#034173}
+.benefits_of_homeopathy_box p{height:70px;margin-top:5px;margin-bottom:0;font-size:16px;font-weight:500;color:#fff;line-height:normal}
+
+}
 @media (max-width:600px){
 .benefits_of_homeopathy_box{display:inline-flex;width:100%;padding:8px 10px}
 .benefits_of_homeopathy_box img{margin-top:0;width:50px;height:50px}
