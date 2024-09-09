@@ -32,39 +32,29 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 @media (max-width:600px){
 .banner-section-cls{background:url(../images/banner-bg-hair-mob.webp) bottom center no-repeat;background-size:cover}
 }
-
 .hair_banner_content h1{font-weight:500;color:#474747;font-size:36px}
-.hair_banner_content h2{font-weight:700;color:#0b4481;font-size:45px;line-height:normal;}
-
+.hair_banner_content h2{font-weight:700;color:#0b4481;font-size:45px;line-height:normal}
 @media (max-width:1680px){
 .hair_banner_content h1{font-weight:500;color:#474747;font-size:32px}
-.hair_banner_content h2{font-weight:700;color:#0b4481;font-size:42px;line-height:normal;}
-.img_banner_unit{width: 72%}
-}
-@media (max-width:1460px){
-
+.hair_banner_content h2{font-weight:700;color:#0b4481;font-size:42px;line-height:normal}
+.img_banner_unit{width:72%}
 }
 @media (max-width:1280px){
 .hair_banner_content h1{font-weight:500;color:#474747;font-size:28px}
-.hair_banner_content h2{font-weight:700;color:#0b4481;font-size:38px;line-height:normal;}
-.img_banner_unit{width: 70%}
-
+.hair_banner_content h2{font-weight:700;color:#0b4481;font-size:38px;line-height:normal}
+.img_banner_unit{width:70%}
 }
 @media (max-width:1024px){
 .hair_banner_content h1{font-weight:500;color:#474747;font-size:22px}
-.hair_banner_content h2{font-weight:700;color:#0b4481;font-size:26px;line-height:normal;}
-.img_banner_unit{width: 65%}
-
+.hair_banner_content h2{font-weight:700;color:#0b4481;font-size:26px;line-height:normal}
+.img_banner_unit{width:65%}
 }
 @media (max-width:600px){
 .hair_banner_content h1{font-weight:500;color:#474747;font-size:24px}
-.hair_banner_content h2{font-weight:700;color:#0b4481;font-size:32px;line-height:normal;}
-.img_banner_unit{width: 70%}
-
+.hair_banner_content h2{font-weight:700;color:#0b4481;font-size:32px;line-height:normal}
+.img_banner_unit{width:70%}
 }
-@media (max-width:375px){
 
-}
 /*==========================================*/
 /* Offer css*/
 /*==========================================*/
@@ -83,10 +73,8 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .blue-band-offer-heading{font-size:24px}
 .small_white_offer_offer{float:right;font-size:10px;font-weight:600;color:#fff;margin-top:25px;margin-bottom:0}
 }
-
 @media(max-width:768px){
-    .offer-new-para-css{margin-bottom:0;color:#fff;font-size:14px;line-height:normal}
-
+.offer-new-para-css{margin-bottom:0;color:#fff;font-size:14px;line-height:normal}
 }
 
 /*==========================================*/
@@ -156,12 +144,12 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 /*==========================================*/
 /* Tratment Slider css*/
 /*==========================================*/
-.tratment_slider_sec{margin-top: 65px;}
+.tratment_slider_sec{margin-top:65px}
 @media(max-width:1024px){
- .tratment_slider_sec{margin-top: 40px;}   
+.tratment_slider_sec{margin-top:40px}
 }
 .flipsub-heading{font-weight:600;color:#30292b;font-size:16px;text-transform:uppercase;margin-bottom:5px}
-.flip-list{color:#636363;font-size:16px;padding-inline-start:19px;font-weight: 500}
+.flip-list{color:#636363;font-size:16px;padding-inline-start:19px;font-weight:500}
 .flip-list li{margin-bottom:5px}
 .box-for-treatment-sec{margin:12px 0;box-shadow:0 2px 8px rgb(194 194 194/30%)}
 .ai-box-content{padding:10px 20px;height:auto}
@@ -189,60 +177,22 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .box-for-treatment-sec{position:relative;max-height:540px;height:540px;overflow:hidden;transition:max-height .15s ease-out}
 }
 
-
 /*==========================================*/
 /* Includes css*/
 /*==========================================*/
-
-.includes_main_sec{
-    margin-top: 60px;
-}
-
-.includes_clinic_box{
-    height: 130px;
-    margin-top: 40px;
-    padding: 8px 15px;
-  background: linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%);
-}
-
-.includes_clinic_box p{
-    font-size: 21px;
-    color: #212121;
-    font-weight: 500;
-    margin-bottom: 5px;
-    margin-top: 8px;
-    line-height: normal;
-}
-
-.includes_clinic_box img{
-    margin-top: -50px;
-}
-
-
+.includes_main_sec{margin-top:60px}
+.includes_clinic_box{height:130px;margin-top:40px;padding:8px 15px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
+.includes_clinic_box p{font-size:21px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
+.includes_clinic_box img{margin-top:-50px}
 @media (max-width:768px){
-
-    .includes_clinic_box{
-        height: auto;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    padding: 5px 10px;
-  background: linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%);
-}
-
-.includes_clinic_box p{
-    font-size: 16px;
-    color: #212121;
-    font-weight: 500;
-    margin-bottom: 5px;
-    margin-top: 8px;
-    line-height: normal;
-}
+.includes_clinic_box{height:auto;margin-top:40px;margin-bottom:10px;padding:5px 10px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
+.includes_clinic_box p{font-size:16px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
 }
 
 /*==========================================*/
 /* Before After Images Slider css*/
 /*==========================================*/
-.screenshot_slider_sec{margin-top: 60px;}
+.screenshot_slider_sec{margin-top:60px}
 .owl-carousel{z-index:0}
 .screenshot_slider .owl-item .item{transform:translate3d(0,0,0);padding-bottom:30px;padding-top:30px}
 .screenshot_slider .owl-item .item img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.6);-ms-transform:scale(.6);transform:scale(.6);opacity:.4}
@@ -279,7 +229,7 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 /*==========================================*/
 /* Testimonials css*/
 /*==========================================*/
-.testimonilas_slider_sec{margin-top: 50px;}
+.testimonilas_slider_sec{margin-top:50px}
 .test-v-cls{bottom:10px;position:absolute;padding:5px 5px}
 .resultsImg{position:absolute;bottom:210px;right:10px}
 .resultsImg img{width:70px!important}
@@ -319,145 +269,64 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .tabby_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
 .tabby_slider .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
-
 @media (max-width:1024px){
-    .tabby_slider .owl-item .item img{width:75%; margin: auto;}
+.tabby_slider .owl-item .item img{width:75%;margin:auto}
 }
 
 /*==========================================*/
 /* Types Slider css*/
 /*==========================================*/
-.types_of_hair_sec{margin-top: 60px;}
+.types_of_hair_sec{margin-top:60px}
 @media (max-width:600px){
-    .types_of_hair_sec{margin-top: 45px;}
+.types_of_hair_sec{margin-top:45px}
 }
-
-.aliments_we_heading{
-    margin-top: 15px;
-   margin-bottom: 5px;
-   font-size: 21px;
-   font-weight: 600;
-   color: #034173;
-   text-align: center;
-}
-
-.aliments_list_cls{
-    list-style: disc;
-      padding-inline-start: 31px;
-}
-
-.aliments_list_cls li{
-    font-size: 18px;
-    margin-bottom: 2px;
-}
-
-.aliments_list_cls li::marker {
-  color: #666666;
-}
-
-
-.aliments_list_cls_sec{
-   list-style: disc;
-   padding-inline-start: 48px;
-}
-
-.aliments_list_cls_sec li{
-    font-size: 18px;
-    margin-bottom: 2px;
-}
-
-.aliments_list_cls_sec li::marker {
-  color: #666666;
-}
-
-
+.aliments_we_heading{margin-top:15px;margin-bottom:5px;font-size:24px;font-weight:600;color:#034173;text-align:left}
+.aliments_list_cls{list-style:disc;padding-inline-start:31px}
+.aliments_list_cls li{font-size:18px;margin-bottom:2px}
+.aliments_list_cls li::marker{color:#666}
+.aliments_list_cls_sec{list-style:disc;padding-inline-start:48px}
+.aliments_list_cls_sec li{font-size:18px;margin-bottom:2px}
+.aliments_list_cls_sec li::marker{color:#666}
 @media (max-width:600px){
-    .aliments_list_cls{
-    list-style: disc;
-      padding-inline-start: 96px;
+.aliments_list_cls{list-style:disc;padding-inline-start:96px}
+.aliments_list_cls_sec{list-style:disc;padding-inline-start:110px}
 }
-
-.aliments_list_cls_sec{
-   list-style: disc;
-   padding-inline-start: 110px;
-}
-
-}
-
-
-.types_of_hair  .owl-item:not(:last-child) {
-    border-right: 1px solid #fff; /* Adjust the width and color of the border */
-}
-
-.types_of_hair  .owl-item {
-    border-right: 1px solid #fff; /* Adjust the width and color of the border */
-    padding-right: 10px; /* Optional: Add padding to the right to create space between the border and content */
-     height: 430px;
-}
-
-
-.types_of_hair .owl-item .item img{margin: auto;}
-.types_of_hair .owl-item .item{transform:translate3d(0,0,0);padding:10px;}
+.types_of_hair .owl-item:not(:last-child){border-right:1px solid #fff}
+.types_of_hair .owl-item{border-right:1px solid #fff;padding-right:10px}
+.types_of_hair .owl-item .item img{margin:auto}
+.types_of_hair .owl-item .item{transform:translate3d(0,0,0);padding:10px}
 .types_of_hair .owl-nav{text-align:center;top:-65px;position:absolute;right:5px}
 .types_of_hair .owl-nav button{font-size:30px!important;margin:0 7px;color:#000!important}
 @media (max-width:1024px){
 .types_of_hair .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
 .types_of_hair .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
+@media (max-width:600px){
+.types_of_hair .owl-nav{text-align:center!important;margin-top:0;top:0;right:0;position:relative}
+.types_of_hair .owl-item{border-right:1px solid #fff;padding-right:0}
+}
 .img_on_text_type{color:#fff;text-align:center;font-size:16px;line-height:20px;font-weight:600;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+.homeopathy_box_cen_ss{width:18%}
+.types_of_homeopathy_box{padding:20px 20px 12px 20px;background:#fef6e2;border-radius:8px;margin-bottom:20px;margin-right:20px}
+.types_of_homeopathy_box p{padding-top:12px;font-size:18px;font-weight:600;line-height:normal;height:50px;margin-bottom:0}
+.types_of_homeopathy_box img{width:65%!important}
+@media (max-width:600px){
+.types_of_homeopathy_box{margin-right:0}
+.types_of_hair .owl-item .item{padding: 0 10px 0 10px}
+.aliments_we_heading{margin-top:0;text-align:center;margin-bottom:10px}
+}
 
 /*==========================================*/
 /* Benefits of Homeopathy css*/
 /*==========================================*/
-.benefits_of_homeopathy{margin-top: 40px; padding: 50px 0 65px; background:url(../images/service-bg-sec-img.webp) bottom center no-repeat;background-size:cover}
-.benefits_of_homeopathy_box{
-/*    height: 200px;*/
-    padding: 20px 10px;
-    border-radius: 8px;
-    align-items: center;
-    background-color: #034173;
-}
-
-.benefits_of_homeopathy_box img{
-    margin-top: 10px;
-}
-
-.benefits_of_homeopathy_box p{
-    height: 50px;
-    margin-top: 15px;
-    margin-bottom: 0;
-    font-size: 18px;
-    font-weight: 500;
-    color: #fff;
-    line-height: normal;
-}
-
-
+.benefits_of_homeopathy{margin-top:40px;padding:50px 0 65px;background:url(../images/service-bg-sec-img.webp) bottom center no-repeat;background-size:cover}
+.benefits_of_homeopathy_box{padding:20px 10px;border-radius:8px;align-items:center;background-color:#034173}
+.benefits_of_homeopathy_box img{margin-top:10px}
+.benefits_of_homeopathy_box p{height:50px;margin-top:15px;margin-bottom:0;font-size:18px;font-weight:500;color:#fff;line-height:normal}
 @media (max-width:600px){
-  .benefits_of_homeopathy_box{
-    display: inline-flex;
-    width: 100%;
-    padding: 8px 10px;
-  }
-
-  .benefits_of_homeopathy_box img{
-    margin-top: 0px;
-    width: 50px;
-    height: 50px;
-}
-
-.benefits_of_homeopathy_box p{
-    height: auto;
-    padding-left: 10px;
-    margin-top: 0px;
-    margin-bottom: 0;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    line-height: normal;
-    text-align: left;
-}
-
+.benefits_of_homeopathy_box{display:inline-flex;width:100%;padding:8px 10px}
+.benefits_of_homeopathy_box img{margin-top:0;width:50px;height:50px}
+.benefits_of_homeopathy_box p{height:auto;padding-left:10px;margin-top:0;margin-bottom:0;font-size:16px;font-weight:400;color:#fff;line-height:normal;text-align:left}
 }
 
 /*==========================================*/
@@ -470,97 +339,25 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 /*==========================================*/
 .spl_offer_sec{margin-top: 50px;}
 
-
-
 /*==========================================*/
 /* Homeopathy Doctor css*/
 /*==========================================*/
-
-.bg_homeopathy_dr_sec{
-    margin-top: 50px;
-}
-
-.bg_homeopathy_dr{
-  background:url(../images/bg-homeopathy-dr.webp) bottom center no-repeat;background-size:cover
-}
-
-.homeopathy_dr_heading{
-    font-size: 32px;
-    color: #173d5b;
-    font-weight: 600; 
-    text-transform: uppercase;   
-}
-
-.doctors_list_ne{
- margin-top: 20px;
-}
-
-.homeopathy_model_dr_cls{
-    margin-left: -60px;
-}
-
-.doctors_list_ne{   
-    list-style-image:url('../images/list-homeoathy.webp');
-    margin-left:0;padding-left:30px;margin-bottom:0
-}
-
-.doctors_list_ne li{
-    font-size: 24px;
-    font-weight: 600;
-    color: #666666;
-    margin-bottom: 15px;
-    padding-left: 5px;
-}
-
-.doctors_list_ne li:last-child{
-    margin-bottom: 30px;
-}
-
+.bg_homeopathy_dr_sec{margin-top:50px}
+.bg_homeopathy_dr{background:url(../images/bg-homeopathy-dr.webp) bottom center no-repeat;background-size:cover}
+.homeopathy_dr_heading{font-size:32px;color:#173d5b;font-weight:600;text-transform:uppercase}
+.doctors_list_ne{margin-top:20px}
+.homeopathy_model_dr_cls{margin-left:-60px}
+.doctors_list_ne{list-style-image:url('../images/list-homeoathy.webp');margin-left:0;padding-left:30px;margin-bottom:0}
+.doctors_list_ne li{font-size:20px;font-weight:600;color:#666;margin-bottom:15px;padding-left:5px}
+.doctors_list_ne li:last-child{margin-bottom:30px}
 @media (max-width:600px){
-
-    .bg_homeopathy_dr{
-        padding-top: 50px;
-  background:url(../images/bg-homeopathy-dr-mob.webp) bottom center no-repeat;background-size:cover
+.bg_homeopathy_dr{padding-top:50px;background:url(../images/bg-homeopathy-dr-mob.webp) bottom center no-repeat;background-size:cover}
+.doctors_list_ne{list-style-image:url('../images/list-homeoathy.webp');margin-left:0;padding-left:42px;margin-bottom:0}
+.doctors_list_ne li{font-size:18px;font-weight:600;color:#666;margin-bottom:15px;padding-left:5px}
+.homeopathy_dr_heading{text-align:center;font-size:26px;color:#173d5b;font-weight:600;text-transform:uppercase}
+.homeopathy_model_dr_cls{margin-left:0}
+.doctors_list_ne li:last-child{margin-bottom:10px}
 }
-
-    .doctors_list_ne{   
-    list-style-image:url('../images/list-homeoathy.webp');
-    margin-left:0;padding-left:42px;margin-bottom:0
-}
-
-
-    .doctors_list_ne li{
-    font-size: 18px;
-    font-weight: 600;
-    color: #666666;
-    margin-bottom: 15px;
-    padding-left: 5px;
-}
-
-.homeopathy_dr_heading{
-    text-align: center;
-    font-size: 26px;
-    color: #173d5b;
-    font-weight: 600; 
-    text-transform: uppercase;   
-}
-
-.homeopathy_model_dr_cls{
-    margin-left: 0px;
-}
-
-.doctors_list_ne li:last-child{
-    margin-bottom: 10px;
-}
-
-
-
-}
-
-
-
-
-
 
 /*==========================================*/
 /* Footer css*/
@@ -591,4 +388,5 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .social-media a{padding:5px;margin:0 5px;font-weight:500}
 @media (max-width:575.98px){
 .footer{margin-bottom:60px}
+.footerLink ul li:nth-child(2) a:after{content:none;display:none}
 }
