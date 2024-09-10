@@ -184,10 +184,26 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .includes_clinic_box{height:130px;margin-top:40px;padding:8px 15px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
 .includes_clinic_box p{font-size:21px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
 .includes_clinic_box img{margin-top:-50px}
+@media (max-width:1024px){
+  .includes_clinic_box{height:150px;margin-top:40px;padding:8px 15px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
+.includes_clinic_box p{font-size:18px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
+}
+
+@media (max-width:992px){
+  .includes_clinic_box{height:150px;margin-top:40px;padding:8px 15px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
+.includes_clinic_box p{font-size:16px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
+}
+
 @media (max-width:768px){
+.includes_clinic_box{height:140px;margin-top:40px;margin-bottom:10px;padding:5px 10px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
+.includes_clinic_box p{font-size:16px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
+}
+
+@media (max-width:600px){
 .includes_clinic_box{height:auto;margin-top:40px;margin-bottom:10px;padding:5px 10px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
 .includes_clinic_box p{font-size:16px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
 }
+
 
 /*==========================================*/
 /* Before After Images Slider css*/
@@ -307,7 +323,7 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 }
 .img_on_text_type{color:#fff;text-align:center;font-size:16px;line-height:20px;font-weight:600;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
 .homeopathy_box_cen_ss{width:18%}
-.types_of_homeopathy_box{padding:20px 20px 12px 20px;background:#fef6e2;border-radius:8px;margin-bottom:20px;margin-right:20px}
+.types_of_homeopathy_box{padding:20px 10px 12px 10px;background:#fef6e2;border-radius:8px;margin-bottom:20px;margin-right:20px}
 .types_of_homeopathy_box p{padding-top:12px;font-size:18px;font-weight:600;line-height:normal;height:50px;margin-bottom:0}
 .types_of_homeopathy_box img{width:65%!important}
 @media (max-width:600px){
@@ -323,10 +339,12 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .benefits_of_homeopathy_box{padding:20px 10px;border-radius:8px;align-items:center;background-color:#034173}
 .benefits_of_homeopathy_box img{margin-top:10px}
 .benefits_of_homeopathy_box p{height:50px;margin-top:15px;margin-bottom:0;font-size:18px;font-weight:500;color:#fff;line-height:normal}
+@media (max-width:1024px){
+.benefits_of_homeopathy_box{padding:10px 10px 60px 10px;border-radius:8px;align-items:center;background-color:#034173}
+}
 @media (max-width:768px){
 .benefits_of_homeopathy_box{padding:20px 5px;border-radius:8px;align-items:center;background-color:#034173}
 .benefits_of_homeopathy_box p{height:70px;margin-top:5px;margin-bottom:0;font-size:16px;font-weight:500;color:#fff;line-height:normal}
-
 }
 @media (max-width:600px){
 .benefits_of_homeopathy_box{display:inline-flex;width:100%;padding:8px 10px}
@@ -351,10 +369,18 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .bg_homeopathy_dr{background:url(../images/bg-homeopathy-dr.webp) bottom center no-repeat;background-size:cover}
 .homeopathy_dr_heading{font-size:32px;color:#173d5b;font-weight:600;text-transform:uppercase}
 .doctors_list_ne{margin-top:20px}
-.homeopathy_model_dr_cls{margin-left:-60px}
+.homeopathy_model_dr_cls{margin-left:-30px}
 .doctors_list_ne{list-style-image:url('../images/list-homeoathy.webp');margin-left:0;padding-left:30px;margin-bottom:0}
 .doctors_list_ne li{font-size:20px;font-weight:600;color:#666;margin-bottom:15px;padding-left:5px}
 .doctors_list_ne li:last-child{margin-bottom:30px}
+@media (max-width:1024px){
+.bg_homeopathy_dr{padding-top:30px;background:url(../images/bg-homeopathy-dr-dek-d.webp) bottom center no-repeat;background-size:cover}
+.doctors_list_ne li{font-size:16px;font-weight:600;color:#666;margin-bottom:7px;padding-left:5px}
+.doctors_list_ne li:last-child{margin-bottom:20px}
+}
+@media (max-width:820px){
+.bg_homeopathy_dr{padding-top:10px;background:url(../images/bg-homeopathy-dr-mob.webp) bottom center no-repeat;background-size:cover}
+}
 @media (max-width:600px){
 .bg_homeopathy_dr{padding-top:50px;background:url(../images/bg-homeopathy-dr-mob.webp) bottom center no-repeat;background-size:cover}
 .doctors_list_ne{list-style-image:url('../images/list-homeoathy.webp');margin-left:0;padding-left:42px;margin-bottom:0}
@@ -363,7 +389,6 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .homeopathy_model_dr_cls{margin-left:0}
 .doctors_list_ne li:last-child{margin-bottom:10px}
 }
-
 /*==========================================*/
 /* Footer css*/
 /*==========================================*/
