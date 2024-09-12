@@ -103,6 +103,15 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .btn-primary:hover{background:#d5d0c9!important;color:#000!important}
 .form-para-text{font-size:14px;font-weight:500}
 .form-select{color:#495057}
+.chat-popup h2{font-size:1.25em;line-height:1em;font-weight:700;font-style:normal;text-align:center;margin:0;padding:10px 0 15px 0}
+.chat-popup .form-control,.form-select{height:40px;width:100%;outline:0;box-shadow:none;border-color:#a6a8ab;border-radius:0;font-size:14px;padding:5px 10px}
+.chat-popup .form-control:focus{border-color:#0073ad}
+.chat-popup select.form-control{background:#fff url(../../image/hairloss_images_v2/arrow-down.webp) no-repeat right 10px center;appearance:none}
+.chat-popup select.form-control::-ms-expand{display:none}
+.chat-popup .row{margin-bottom:1rem}
+.chat-popup .form-check-label{font-size:10px}
+.chat-popup .form-check-label a{color:#0e74af}
+.chat-popup .form-action{text-align:center;padding-top:15px}
 @media (max-width:1600px){
 .contactFormHolder{right:30px;top:30px;width:300px;z-index:9}
 }
